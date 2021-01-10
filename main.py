@@ -12,5 +12,17 @@ def toList(string):
 
     return c_list     # At last return the value (list) ..
 
+# Same copy of function 1 just a the below code is better version .
+# func : 2
+def toLst(str):
+    list_a = []
+    for i in str:
+        list_a.append(i)
+        
+    return list_a
+
+
+    
+
 
 
